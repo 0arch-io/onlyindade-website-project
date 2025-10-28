@@ -1,151 +1,9 @@
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-Black.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-BlackItalic.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-Mediu.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-Mediu.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-LightItalic.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-Bold.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-BoldItalic.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-Light.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-XThin.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-XThin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-Roman.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-Roman.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-RomanItalic.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-RomanItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-ThinItalic.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-ThinItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-XThinItalic.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-XThinItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-MediumItalic.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-Thin.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-XXThin.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-XXThin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Grotesk Display Pro';
-    src: url('../fonts/NeueHaasDisplay-XXThinItalic.woff2') format('woff2'),
-        url('../fonts/NeueHaasDisplay-XXThinItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
+/* Horizon font loaded from Google Fonts in HTML */
 
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Neue Haas Grotesk Display Pro';
+    font-family: 'Horizon', sans-serif;
 }
 
 :root {
@@ -465,7 +323,7 @@ video {
     color: #fff;
     padding: 11px 28px;
     font-size: 16px;
-    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    /* font-family: 'Horizon', sans-serif; */
     font-weight: normal;
     font-style: normal;
 }
@@ -482,7 +340,7 @@ video {
     color: #161917;
     padding: 11px 28px;
     font-size: 16px;
-    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    /* font-family: 'Horizon', sans-serif; */
     font-weight: normal;
 }
 
@@ -625,7 +483,7 @@ video {
   color:var(--white-color);
   padding: 11px 28px;
   font-size: 16px;
-  font-family: 'Neue Haas Grotesk Display Pro';
+  font-family: 'Horizon', sans-serif;
   font-weight: normal;
 }
 .sign-in-btn:hover{
@@ -639,7 +497,7 @@ video {
   color:#161917;
   padding: 11px 28px;
   font-size: 16px;
-  font-family: 'Neue Haas Grotesk Display Pro';
+  font-family: 'Horizon', sans-serif;
   font-weight: normal;
 }
 .login-btn:hover{
@@ -3351,7 +3209,7 @@ video {
     color: #fff;
     padding: 11px 28px;
     font-size: 16px;
-    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    /* font-family: 'Horizon', sans-serif; */
     font-weight: normal;
 }
 
@@ -3367,7 +3225,7 @@ video {
     color: #161917;
     padding: 11px 28px;
     font-size: 16px;
-    /* font-family: 'Neue Haas Grotesk Display Pro'; */
+    /* font-family: 'Horizon', sans-serif; */
     font-weight: normal;
 }
 
